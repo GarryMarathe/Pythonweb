@@ -1,0 +1,6 @@
+module EvenModule{
+	interface Even{
+		string oddeven(in double num1);
+		string prime(in double num2);
+	};
+};

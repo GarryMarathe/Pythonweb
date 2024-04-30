@@ -1,0 +1,8 @@
+module CalculatorModule{
+	interface Calculator{
+		double addition(in double num1, in double num2);
+		double subtraction(in double num1, in double num2);
+		double multiplication(in double num1, in double num2);
+		double division(in double num1, in double num2);
+	};
+};
